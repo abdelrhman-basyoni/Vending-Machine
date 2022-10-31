@@ -1,0 +1,26 @@
+{
+    "duplicateKey":" يجب ان يكوم مميز {fieldName} ",
+    "notfound":"لم يوجد",
+    "invalidCard":"كارت غير صحيح",
+    "missingCard":"لم يتم ادخال كارت",
+    "missingMatrix":"نظام المحاسبة مفقود",
+    "missingUserData":"بيانات العميل مفقوده",
+    "invalidUser":"مستخدم غير صحيح",
+    "noDriverFound":"ﻻ يوجد سائق",
+    "cantCancel":"ﻻ يمكن الغاء هذه الرحله",
+    "emailNotFound":"ايميل غير صحيح",
+    "wrongPassword":"الرقم السري غير صحيح",
+    "someRecordsalreadyEntered":"بعض البيانات تم ادخالها مسبقا",
+    "invalidTrip":"رحله غير صحيحة",
+    "missingData":"بيانات مفقوده",
+    "invalidTripStage":"مرحله غير صحيحة",
+    "userInTrip":"العميل في رحلة",
+    "TripAlreadyTaken":"رحله تم قبولها من سائق اخر",
+    "paymentFailed":"فشل في الدفع",
+    "someThingWentWrong":"حدث خطاء ما",
+    "invalid":"غير صحيح",
+    "excelFieldsMissing":"ملف الاكسل به بيانات مفقودة او اسم العمود متغير",
+    "invalidProduct":"منتج غير صحيح او كمية غير صحيحة",
+    "notenoughMoney":"رصيد غير كافي"
+
+}
