@@ -31,7 +31,10 @@
 ```bash
 $ npm install
 ```
-
+#env
+```
+create .env file on the same lvl as env-example and copy the keys from it
+```
 ## Running the app
 
 ```bash
