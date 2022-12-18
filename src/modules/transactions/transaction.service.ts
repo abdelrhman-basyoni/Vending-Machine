@@ -39,7 +39,7 @@ export class TransactionService {
             update[coin] = coin
 
             userDb = await this.userService.findByIdAndUpdate(user._id, { $inc: { deposite: body.amount } }, { session: session });
-            coins = await this.coinsService.update({ $inc: update }, { session: session });
+            coins = await this.coinsService.findOneAndUpdate({ $inc: update }, { session: session });
 
             if (!userDb || !coins) {
                 throw new BadRequestException(i18n.t('errors.invalid'));
@@ -164,7 +164,7 @@ export class TransactionService {
                     deposite: change.remaining
                 }, { session: session });
 
-            await this.coinsService.update({
+            await this.coinsService.findOneAndUpdate({
                 $inc: {
                     5: -change[5],
                     10: -change[10],

@@ -33,7 +33,7 @@ async function bootstrap() {
   const port = process.env.PORT || 5102
   await app.listen(port, () => {
     Logger.log(`flap server started at ${port}`, 'server');
-    Logger.log(` DB connected on ${process.env.DB_HOST}`, 'DataBase')
+    Logger.log(`DB connected`, 'DataBase')
     Logger.log(`http://localhost:${port}/api`, "swagger")
   });
 }

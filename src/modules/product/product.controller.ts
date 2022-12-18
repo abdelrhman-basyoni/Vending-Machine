@@ -20,7 +20,7 @@ export class ProductController {
     @Role([UserRoles.seller])
     @Post('/create')
     async create(@Body() body: Product,@Req() req: any, @I18n() i18n: I18nContext): Promise<ResponseDto> {
-        const res = await this.service.create(body,req.user)
+        const res = await this.service.createProdcut(body,req.user)
         return {
             success:true,
             message:i18n.t('messages.success'),
