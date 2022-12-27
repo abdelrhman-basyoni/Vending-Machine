@@ -51,7 +51,7 @@ $ npm install
 ```
 #env
 ```
-create .env file on the same lvl as env-example and copy the keys from it
+create .env file on the same lvl as env-example and copy the keys from it(add ur mongodb connection string in hte key DB_URL)
 ```
 ## Running the app
 
