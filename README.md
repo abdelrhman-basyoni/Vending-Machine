@@ -1,10 +1,10 @@
-# FlapKap
+# Vending-Machine
 
 
 
 ## Description
 
-  this was a task required for a job 
+  this is exmple for a vending machine 
 
 ## project Requirments
 In this exercise we want you to design an API for a vending machine, allowing users
